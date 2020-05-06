@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Verification</fullName>
+    <active>true</active>
+    <errorConditionFormula>LEN(Phone_Number__c) &lt;&gt; 10</errorConditionFormula>
+    <errorDisplayField>Phone_Number__c</errorDisplayField>
+    <errorMessage>Phone Numbers is not valid</errorMessage>
+</ValidationRule>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope_for_future_salesforce_implement__c</fullName>
+    <externalId>false</externalId>
+    <label>Scope for future salesforceimplement</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Same</fullName>
+                <default>false</default>
+                <label>Same</label>
+            </value>
+            <value>
+                <fullName>Not decided</fullName>
+                <default>false</default>
+                <label>Not decided</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Suggestions required</fullName>
+                <default>false</default>
+                <label>Suggestions required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

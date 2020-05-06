@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Occupation__c</fullName>
+    <externalId>false</externalId>
+    <label>Occupation</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Class__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Teacher</fullName>
+                <default>false</default>
+                <label>Teacher</label>
+            </value>
+            <value>
+                <fullName>Data Scientist</fullName>
+                <default>false</default>
+                <label>Data Scientist</label>
+            </value>
+            <value>
+                <fullName>Mathematician</fullName>
+                <default>false</default>
+                <label>Mathematician</label>
+            </value>
+            <value>
+                <fullName>Hindi Teacher</fullName>
+                <default>false</default>
+                <label>Hindi Teacher</label>
+            </value>
+            <value>
+                <fullName>Doctor</fullName>
+                <default>false</default>
+                <label>Doctor</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Data Scientist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maths</controllingFieldValue>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Mathematician</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>English</controllingFieldValue>
+            <controllingFieldValue>Social Studies</controllingFieldValue>
+            <controllingFieldValue>Hindi</controllingFieldValue>
+            <valueName>Teacher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Studies</controllingFieldValue>
+            <controllingFieldValue>Hindi</controllingFieldValue>
+            <valueName>Hindi Teacher</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
