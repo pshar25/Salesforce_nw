@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>SampleDeployClass</members>
-		<name>ApexClass</name>
+		<members>Devops__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Devops__c.Phone_Verification</members>
+		<name>ValidationRule</name>
 	</types>
 	<version>48.0</version>
 </Package>
