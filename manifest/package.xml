@@ -4,5 +4,5 @@
 		<members>SampleDeployClass</members>
 		<name>ApexClass</name>
 	</types>
-	<version>48.1</version>
+	<version>48</version>
 </Package>
