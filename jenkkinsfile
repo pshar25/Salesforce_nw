@@ -1,0 +1,18 @@
+pipeline {
+agent any
+ 
+stages {
+stage('Build') {
+steps {
+bitbucketStatusNotify(buildState: 'INPROGRESS')
+echo "hello"
+bitbucketStatusNotify(buildState: 'SUCCESSFUL')
+}
+post {
+always {
+jiraSendBuildInfo site: 'sharpa.atlassian.net'
+}
+}
+}
+}
+}
