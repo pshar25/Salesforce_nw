@@ -1,7 +1,7 @@
 {
   "recommendations": [
     "salesforce.salesforcedx-vscode",
-    "redhat.vscode-xml",
+    "redhat.vscode-ml",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
   ]
